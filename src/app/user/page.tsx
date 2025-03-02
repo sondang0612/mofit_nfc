@@ -10,7 +10,7 @@ const media = [
 
 const Page = () => {
   return (
-    <div className="w-full h-full flex flex-col gap-4">
+    <div className="w-full flex-1 flex flex-col gap-4">
       <section className="bg-white !pl-4 !pr-4">
         <div className="flex items-center justify-between !pt-4 !pb-4">
           <div className="flex items-center gap-4">

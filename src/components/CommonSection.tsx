@@ -8,7 +8,7 @@ interface Props {
 const CommonSection = (props: Props) => {
   const { title } = props;
   return (
-    <section className="!mx-3 !px-4 bg-white rounded-lg">
+    <section className="!mx-3 !p-4 bg-white rounded-lg h-[200px]">
       <div className="flex items-center justify-between">
         <p className="text-[#101828] font-bold text-base">{title}</p>
         <CustomImage

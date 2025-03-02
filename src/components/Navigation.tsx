@@ -19,7 +19,7 @@ const nav = [
 const Navigation = () => {
   const pathName = usePathname();
   return (
-    <div className="absolute bottom-0 left-0 right-0">
+    <div className="fixed bottom-0 left-0 right-0 z-50">
       <div className="bg-[#E8EAED] !pl-4 !pr-4 !pt-3 !pb-3 flex items-center justify-between">
         {nav.map((item) => (
           <button key={item.id}>
